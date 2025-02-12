@@ -18,8 +18,6 @@ pip install -r requirements.txt
 The MNIST dataset is loaded and normalized to scale the pixel values to the range [0, 1].
 
 ## Model Architecture
-The neural network model is built using the Sequential API from Keras. The architecture consists of:
-## Model Architecture
 
 The neural network model for MNIST digit classification is built using the Sequential API from Keras. Below is a detailed description of each layer in the model architecture:
 
@@ -56,7 +54,7 @@ The trained MNIST classifier model was evaluated on a test dataset to determine 
 
 The model achieved the following results on the test dataset:
 
-- **Accuracy**: 97.88%
+- **Accuracy**: 97.91%
 
 These results demonstrate that the MNIST classifier is capable of accurately identifying digits. The model's performance can be further improved by tuning hyperparameters.
 
